@@ -5,9 +5,36 @@ body {
 }
 
 header{
+    padding: 10px;
     background-color: black;
     color: blueviolet;
+    /* border-radius: 10px; */
 }
-header > td > p {
-    color : blue;
+section > p {
+    text-indent: 10px;
+}
+h2 {
+   padding-top: 10px;
+   padding-left: 5px;
+}
+header > table{
+    margin-top: 0px;
+    color: white;
+}
+table > tb > p {
+    text-indent: 10px;
+}
+header > section{
+    background-color: grey;
+    color: black;
+    padding-left: 5px;
+}
+section > table {
+    color: blue;
+}
+#rcorner{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    background: grey;
 }
