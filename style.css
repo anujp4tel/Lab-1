@@ -10,9 +10,7 @@ header{
     color: blueviolet;
     /* border-radius: 10px; */
 }
-section > p {
-    text-indent: 10px;
-}
+
 h2 {
    padding-top: 10px;
    padding-left: 5px;
@@ -27,12 +25,12 @@ header > section{
     padding-left: 5px;
 }
 section > table {
-    width: 400px;
+    width: 300px;
     text-align: right;
     
 }
 tr.bottom_border td {
-    border-bottom:1pt solid black;
+    border-bottom:1pt solid blue;
     text-align: center;
   }
 #rcorner{
@@ -40,4 +38,8 @@ tr.bottom_border td {
     border-bottom-right-radius: 10px;
     padding: 20px;
     background: grey;
+}
+
+.indent {
+    text-indent: 15px;
 }
