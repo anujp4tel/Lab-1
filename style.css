@@ -21,17 +21,20 @@ header > table{
     margin-top: 0px;
     color: white;
 }
-table > tb > p {
-    text-indent: 10px;
-}
 header > section{
     background-color: grey;
     color: black;
     padding-left: 5px;
 }
 section > table {
-    color: blue;
+    width: 400px;
+    text-align: right;
+    
 }
+tr.bottom_border td {
+    border-bottom:1pt solid black;
+    text-align: center;
+  }
 #rcorner{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
