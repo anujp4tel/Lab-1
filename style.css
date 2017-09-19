@@ -43,3 +43,9 @@ tr.bottom_border td {
 .indent {
     padding: 15px;
 }
+
+h1{
+    color: red;
+    text-align: right;
+    text-shadow: 3px 3px black;
+}
